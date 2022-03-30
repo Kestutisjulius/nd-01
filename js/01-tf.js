@@ -50,3 +50,11 @@ function plusMinus(a, b) {
     }
 }
 module.exports.ketvirta = plusMinus;
+
+function ledu(c, p) {
+    let k = 0; let m = 0;
+    m = c%p;
+    k = c/p;
+    return ` Saulius nusipirks ${Math.floor(k)} vnt. ledu ir liks ${m} centu`;
+}
+module.exports.penkta = ledu;

@@ -11,5 +11,8 @@ console.log('--3.|' + nd1.trecia(2, 8, 5));
 /*4. tik du skaiciai [didesnis-DECREASE, mazesnis-INCREASE] - */
 console.log('nd--Fourth--2022.03.30');
 console.log('--4.|' + nd1.ketvirta(0, 0));
+/*5. tik du skaiciai [centai, viena porcija ledu centais] - */
+console.log('nd--Fifth--2022.03.30');
+console.log('--5.|' + nd1.penkta(50, 20));
 
 
