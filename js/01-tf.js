@@ -67,3 +67,18 @@ function degtukai(n) {
     }
 }
 module.exports.sesta = degtukai;
+
+function daysInMonth(n) {
+    if (n%2 === 1 && n <= 7 && n !== 2){
+        return 31;
+    }else if (n%2 === 0 && n >= 8) {
+        return 31;
+    } else if (n > 0 && n < 12 && n !== 2) {
+        return 30;
+    } else if (n === 2) {
+        return 28;
+    } else {
+        return 'wrong month';
+    }
+}
+module.exports.septinta = daysInMonth;

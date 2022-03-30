@@ -17,5 +17,8 @@ console.log('--5.|' + nd1.penkta(50, 20));
 /*6. tik vienas skaicius [degtukai lygiakrasciam trikampiui] - */
 console.log('nd--Sixth--2022.03.30');
 console.log('--6.|' + nd1.sesta(6));
+/*7. tik vienas skaicius [menuo] - */
+console.log('nd--Seventh--2022.03.30');
+console.log('--6.|' + nd1.septinta(5));
 
 
