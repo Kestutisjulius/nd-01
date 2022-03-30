@@ -58,3 +58,12 @@ function ledu(c, p) {
     return ` Saulius nusipirks ${Math.floor(k)} vnt. ledu ir liks ${m} centu`;
 }
 module.exports.penkta = ledu;
+
+function degtukai(n) {
+    if(n%3 === 0){
+        return 'Trikampį sudėlioti galima.';
+    }else {
+        return 'Trikampį sudėlioti negalima.';
+    }
+}
+module.exports.sesta = degtukai;
