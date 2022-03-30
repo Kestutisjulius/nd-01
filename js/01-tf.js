@@ -12,7 +12,6 @@ function isPlusMinus(n) {
 module.exports.pirma = isPlusMinus;
 
 function sviesoforas(n) {
-
     switch (n) {
         case 1: return 'Eikite';
         break;
@@ -24,3 +23,13 @@ function sviesoforas(n) {
     }
 }
 module.exports.antra = sviesoforas;
+
+function knygos(d, k, n) {
+    const viso = d*n;
+    if(viso - k >= 0 ) {
+        return 'Knygos telpa į dėžes.';
+    } else {
+        return 'Knygos netelpa į dėžes.';
+    }
+}
+module.exports.trecia = knygos;
