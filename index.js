@@ -8,6 +8,8 @@ console.log('--2.|' + nd1.antra(2));
 /*3. tik trys skaiciai [pirmas:dezes, antras:knygos, trecias:talpa] - [3, 18, 5]*/
 console.log('nd--Third--2022.03.30');
 console.log('--3.|' + nd1.trecia(2, 8, 5));
-
+/*4. tik du skaiciai [didesnis-DECREASE, mazesnis-INCREASE] - */
+console.log('nd--Fourth--2022.03.30');
+console.log('--4.|' + nd1.ketvirta(0, 0));
 
 

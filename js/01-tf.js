@@ -33,3 +33,20 @@ function knygos(d, k, n) {
     }
 }
 module.exports.trecia = knygos;
+
+function plusMinus(a, b) {
+    if (a !== b ) {
+        if (a > b){
+            -- a;
+            ++ b;
+            return `sumazejo pirmasis iki "${a}", padidejo antrasis iki "${b}"`;
+        } else {
+            ++ a;
+            -- b;
+            return `padidejo pirmasis iki "${a}", pamazejo antrasis iki "${b}"`;
+        }
+    } else {
+        return 'iveskite bent viena kitoki skaiciu!' ;
+    }
+}
+module.exports.ketvirta = plusMinus;
