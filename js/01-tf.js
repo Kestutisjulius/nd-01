@@ -82,3 +82,16 @@ function daysInMonth(n) {
     }
 }
 module.exports.septinta = daysInMonth;
+
+function kauliukas(n) {
+    if(n <= 6 && n >= 1) {
+        if (n % 2 === 1) {
+            return 'Kambarį tvarkys jaunėlis.';
+        } else {
+            return 'Kambarį tvarkys vyresnėlis.';
+        }
+    } else {
+        return 'nesukčiauk!';
+    }
+}
+module.exports.astuntas = kauliukas;
