@@ -109,3 +109,14 @@ function olimpiniai(m) {
     } return `Metai neolimpiniai iki olimpiniu liko ${1896 - metai} metai`;
 }
 module.exports.devintas = olimpiniai;
+
+function paveluos(v1, m1, v2) {
+    const v = 9; const m = 5;
+    let timeLeft = ((v - v1) * 60) + m - m1;
+    if(timeLeft <= v2) {
+        return 'Petras į pamoką nepavėluos.';
+    } else {
+       return `Petras į pamoką pavėluos ${v2 - timeLeft} min.`;
+    }
+}
+module.exports.desimtas = paveluos;

@@ -26,5 +26,8 @@ console.log('--8.|' + nd1.astuntas(1));
 /*9. tik vienas skaicius [olimpiniai neolimpiniai] - */
 console.log('nd--Ninth--2022.03.30');
 console.log('--9.|' + nd1.devintas(1904));
+/*10. tik trys skaiciai [paveluos nepaveluos] laikas val.min.ir kelione min. */
+console.log('nd--Ten--2022.03.30');
+console.log('--10.|' + nd1.desimtas(8, 29, 43));
 
 
