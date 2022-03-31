@@ -95,3 +95,17 @@ function kauliukas(n) {
     }
 }
 module.exports.astuntas = kauliukas;
+
+function olimpiniai(m) {
+    let metai = m;
+    let count = 0;
+    if (m < 1896) {return 'gladiatoriu kautynes neskaiciuojamos';}
+    while (metai >= 1896 ) {
+        metai -= 4;
+        ++ count;
+    }
+    if (metai == 1892) {
+        return `${count} - iosios Olimpines`;
+    } return `Metai neolimpiniai iki olimpiniu liko ${1896 - metai} metai`;
+}
+module.exports.devintas = olimpiniai;

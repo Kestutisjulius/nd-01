@@ -20,8 +20,11 @@ console.log('--6.|' + nd1.sesta(6));
 /*7. tik vienas skaicius [menuo] - */
 console.log('nd--Seventh--2022.03.30');
 console.log('--7.|' + nd1.septinta(5));
-/*8. tik vienas skaicius [menuo] - */
+/*8. tik vienas skaicius [kauliukas] - */
 console.log('nd--Eighth--2022.03.30');
 console.log('--8.|' + nd1.astuntas(1));
+/*9. tik vienas skaicius [olimpiniai neolimpiniai] - */
+console.log('nd--Ninth--2022.03.30');
+console.log('--9.|' + nd1.devintas(1904));
 
 
